@@ -1,0 +1,41 @@
+h1 {
+    color: aqua;
+    background-color: lightgrey;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: "Michroma", sans-serif;
+}
+
+h2 {
+    color: pink;
+    background-color: lightblue;
+    font-size: 40px;
+    font-family: "Michroma", sans-serif;
+}
+
+p,a{
+    color: lightblue;
+    background-color: black;
+    font-family: "Michroma", sans-serif ;
+}
+
+body{
+    text-align: center;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: blue;
+    transition: all 0.3 ease-in;
+}
+
+button:active{
+    background-color: lightcyan;
+    transition: all 0.3 ease-in;
+}
